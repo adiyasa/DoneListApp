@@ -40,8 +40,8 @@ public class DoneListActivity extends AppCompatActivity {
         dialog = new LoadingDialog(this);
         setContentView(R.layout.activity_done_list);
         user = FirebaseAuth.getInstance().getCurrentUser();
-        tvName = findViewById(R.id.tvName);
-        RecyclerView recyclerView = findViewById(R.id.rvDoneList);
+        tvName = findViewById(R.id.tv_name);
+        RecyclerView recyclerView = findViewById(R.id.rv_done_list);
         recyclerView.setHasFixedSize(true);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);

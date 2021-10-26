@@ -4,16 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="2dp">
+
     <Button
-        android:layout_width="30dp"
+        android:id="@+id/but_option_list"
+        android:layout_width="48dp"
         android:layout_height="wrap_content"
-        android:text="@string/_8942"
-        android:textSize="35sp"
         android:layout_gravity="end"
         android:layout_margin="5dp"
-        android:id="@+id/but_option_list"
-        android:textAlignment="center"
         android:background="@color/white"
+        android:text="@string/_8942"
+        android:textAlignment="center"
+        android:textSize="35sp"
         tools:ignore="RtlCompat" />
     <LinearLayout
         android:layout_width="match_parent"

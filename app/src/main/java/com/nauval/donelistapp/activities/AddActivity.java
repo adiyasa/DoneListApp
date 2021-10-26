@@ -32,13 +32,13 @@ public class AddActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add);
         user = FirebaseAuth.getInstance().getCurrentUser();
-        tvName = findViewById(R.id.tvName);
+        tvName = findViewById(R.id.tv_name);
         tvName.setText(user.getDisplayName());
-        etTask = findViewById(R.id.etDoneTask);
+        etTask = findViewById(R.id.et_done_task);
         modelEdit = (DoneTaskModel) getIntent().getSerializableExtra("EDIT");
         if(modelEdit != null){
             etTask.setText(modelEdit.getTask());
-            butAddTask = findViewById(R.id.butAddTask);
+            butAddTask = findViewById(R.id.but_add_task);
             butAddTask.setText(R.string.update);
         }
     }
