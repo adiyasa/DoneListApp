@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "219225086556",
+    "firebase_url": "https://testing-firebase-7a300-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "testing-firebase-7a300",
+    "storage_bucket": "testing-firebase-7a300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219225086556:android:92aefffc1555e77aa5e499",
+        "android_client_info": {
+          "package_name": "com.nauval.donelistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219225086556-i3aj0r8sdurm4j43ev1m1ck9nhr89fia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxEt76yubWq9_-0St1PEWjShk5CvmjJC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219225086556-i3aj0r8sdurm4j43ev1m1ck9nhr89fia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219225086556:android:801520297f309f42a5e499",
+        "android_client_info": {
+          "package_name": "com.nauval.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219225086556-i3aj0r8sdurm4j43ev1m1ck9nhr89fia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxEt76yubWq9_-0St1PEWjShk5CvmjJC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219225086556-i3aj0r8sdurm4j43ev1m1ck9nhr89fia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
